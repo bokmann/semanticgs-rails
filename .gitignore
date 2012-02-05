@@ -2,5 +2,5 @@
 .bundle
 Gemfile.lock
 pkg/*
-vendor
+vendor/ruby
 bin
