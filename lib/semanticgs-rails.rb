@@ -2,6 +2,7 @@ require "semanticgs-rails/version"
 
 module Semanticgs
   module Rails
-    # Your code goes here...
+    class Engine < ::Rails::Engine
+    end
   end
 end
