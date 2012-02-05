@@ -7,7 +7,7 @@ Gem::Specification.new do |s|
   s.version     = Semanticgs::Rails::VERSION
   s.authors     = ["bokmann"]
   s.email       = ["dbock@codesherpas.com"]
-  s.homepage    = ""
+  s.homepage    = "https://github.com/bokmann/semanticgs-rails"
   s.summary     = %q{A simple asset gem bundling up semantic.gs}
   s.description = %q{A simple asset gem bundling up the scss file from http://semantic.gs/}
 
@@ -19,8 +19,4 @@ Gem::Specification.new do |s|
   s.require_paths = ["lib"]
 
   s.add_dependency "railties", "~> 3.1"
-  
-  # specify any dependencies here; for example:
-  # s.add_development_dependency "rspec"
-  # s.add_runtime_dependency "rest-client"
 end
